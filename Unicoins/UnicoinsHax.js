@@ -1,14 +1,19 @@
 // ==UserScript==
 // @name UnicoinHax
 // @namespace http://stackexchange.com
-// @description Constantly gives you Unicoins whenever you visit the main page for a Stack Exchange site
-// @include http://*.stackexchange.com/
-// @include http://stackoverflow.com/
-// @include http://*.stackoverflow.com/
-// @include http://mathoverflow.com/
-// @include http://serverfault.com/
-// @include http://superuser.com/
-// @include http://stackapps.com/
+// @description Constantly gives you Unicoins whenever you visit a Stack Exchange site
+// @include  http://*.stackoverflow.com/*
+// @include  https://*.stackoverflow.com/*
+// @include  http://*.serverfault.com/*
+// @include  https://*.serverfault.com/*
+// @include  http://*.superuser.com/*
+// @include  https://*.superuser.com/*
+// @include  http://stackapps.com/*
+// @include  https://stackapps.com/*
+// @include  http://*.stackexchange.com/*
+// @include  https://*.stackexchange.com/*
+// @include  http://*.askubuntu.com/*
+// @include  https://*.askubuntu.com/*
 // @version 1
 // @grant none
 // ==/UserScript==
