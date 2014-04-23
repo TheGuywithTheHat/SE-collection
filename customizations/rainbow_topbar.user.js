@@ -19,3 +19,5 @@ $('.topbar').css('background', '-o-linear-gradient(left, red, orange, yellow, gr
 $('.topbar').css('background', '-ms-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet)');
 
 $('.topbar').children().css('background-color', 'transparent');
+
+test
