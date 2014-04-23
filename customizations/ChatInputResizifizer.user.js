@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Chat Input Resizifizer
+// @name        Chat Resizifizer
 // @namespace   http://stackexchange.com
 // @description Various customizations for Stack Exchange chat
 // @match       http://chat.stackexchange.com/rooms/*
@@ -23,7 +23,7 @@ $('#input-area').resizable({
     }
 });
 
-$('#input').resizable({
+$('#bubble').resizable({
     handles: 'e',
-    alsoResize: '#bubble'
+    alsoResize: '#input'
 });
