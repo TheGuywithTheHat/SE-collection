@@ -17,5 +17,13 @@ GM_addStyle(newCSS);
 
 $('#input-area').resizable({
     handles: 'n',
-    alsoResize: '#input'
+    alsoResize: '#input, #bubble',
+    stop: function(event, ui) {
+        $('#chat').css('padding-bottom', ui.size.height + 40 + 'px');
+    }
+});
+
+$('#input').resizable({
+    handles: 'e',
+    alsoResize: '#bubble'
 });
