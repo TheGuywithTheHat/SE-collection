@@ -27,5 +27,3 @@ $('#bubble').resizable({
     handles: 'e',
     alsoResize: '#input'
 });
-
-test
